@@ -1,0 +1,6 @@
+:root{--bg:#f7f7f5;--fg:#1c1c1a;--mut:#62625c;--line:#d9d9d2;--acc:#0b5c8a}
+@media (prefers-color-scheme:dark){:root{--bg:#161614;--fg:#ecece6;--mut:#a3a39b;--line:#34342f;--acc:#7cc1ea}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:2rem 1rem}h1{font-size:1.5rem;margin:0 0 .5rem}p{margin:.6rem 0}
+a{color:var(--acc)}.mut{color:var(--mut)}input{width:100%;padding:.6rem;font:inherit;border:1px solid var(--line);border-radius:6px;background:transparent;color:inherit}
+ul{list-style:none;padding:0;margin:1rem 0;columns:3 9rem}li{padding:.15rem 0;break-inside:avoid}code{font-size:.9em}
